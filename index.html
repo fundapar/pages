@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FUNDAPAR - Cartagena con Parques</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+
+    .top-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    header {
+      background-color: #065f46;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    header p {
+      margin: 0.2rem 0;
+      font-size: 1rem;
+      color: #d1fae5;
+    }
+
+    nav {
+      background-color: #047857;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #065f46;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #047857;
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+      padding-bottom: 2rem;
+    }
+
+    .video-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-image">
+    <img src="imagen-cartagena.jpg" alt="Cartagena desde las murallas">
+  </div>
+
+  <header>
+    <img src="logo.png" alt="Logo de FUNDAPAR" />
+    <h1>FUNDAPAR</h1>
+    <p>Cartagena con parques</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#mision">Misión</a>
+    <a href="#vision">Visión</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#agenda">Agenda de eventos</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido a FUNDAPAR. Conoce nuestros esfuerzos por una Cartagena más verde.</p>
+  </section>
+
+  <section id="quienes">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos una fundación comprometida con la restauración y conservación de espacios públicos y parques urbanos.</p>
+  </section>
+
+  <section id="mision">
+    <h2>Misión</h2>
+    <p>Promover el desarrollo sostenible y la participación ciudadana a través de la conservación de parques en Cartagena.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Visión</h2>
+    <p>Ser referentes nacionales en el diseño, gestión y preservación de espacios verdes comunitarios.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Estamos ejecutando iniciativas de arborización, educación ambiental y participación ciudadana.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>Ofrecemos asesoría en diseño de espacios verdes, talleres ambientales y acompañamiento comunitario.</p>
+  </section>
+
+  <section id="agenda">
+    <h2>Agenda de eventos</h2>
+    <p>Consulta nuestras próximas jornadas de siembra, talleres y actividades comunitarias.</p>
+  </section>
+
+  <div class="video-container">
+    <h2>Conoce más sobre nosotros</h2>
+    <video controls>
+      <source src="video-fundapar.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  </div>
+
+  <footer>
+    © 2025 FUNDAPAR. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
