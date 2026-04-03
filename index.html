@@ -16,13 +16,13 @@
       background-color: #f3f4f6;
       color: #1f2937;
     }
-.top-image img { 
-  width: 150%; 
-  max-height: 400px;
-  object-fit: cover;
-  display: block;
-}
-    
+
+    .top-image img { 
+      width: 150%; 
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }
 
     header {
       background-color: #065f46;
@@ -101,6 +101,22 @@
       border-radius: 1rem;
       box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     }
+
+    .pdf-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      background-color: #047857;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+    }
+
+    .pdf-link:hover {
+      background-color: #065f46;
+    }
+
   </style>
 </head>
 <body>
@@ -124,6 +140,7 @@
     <a href="#proyectos">Proyectos</a>
     <a href="#servicios">Servicios</a>
     <a href="#agenda">Agenda de eventos</a>
+    <a href="#noticias">Noticias RADARIDHI</a> <!-- NUEVO -->
   </nav>
 
   <section id="inicio">
@@ -133,7 +150,7 @@
 
   <section id="quienes">
     <h2>¿Quiénes somos?</h2>
-    <p>Somos una fundación comprometida con la restauración y conservación de espacios públicos y parques urbanos; asimismo, prestamos servicios educativos, acompañamiento psicopedagógico y asesorías especializadas en todos los niveles de escolaridad (diplomados, talleres, cursos, seminarios, preuniversitarios) para el desarrollo del pensamiento matemático, las artes a través de los semilleros en ciencias y lectura. En el instituto de ciencias y pedagogía de Caribe ICPC, orientamos procesos de investigación en el campo de la educación matemática y la pedagogía. Suministramos material didáctico y pedagógico en todo los niveles de formación.</p>
+    <p>Somos una fundación comprometida con la restauración y conservación de espacios públicos y parques urbanos; asimismo, prestamos servicios educativos, acompañamiento psicopedagógico y asesorías especializadas en todos los niveles de escolaridad.</p>
   </section>
 
   <section id="mision">
@@ -146,29 +163,36 @@
     <p>Ser referentes nacionales en el diseño, gestión y preservación de espacios verdes comunitarios.</p>
   </section>
 
- <section id="instituto">
-  <h2>
-    <a href="https://campusfundapar.online/" target="_blank" style="color:#047857; text-decoration:none;">
-      Instituto de Formación y Ciencias
-    </a>
-  </h2>
-    <p>El Campus del Instituto de Formación y Ciencias FUNDAPAR – Prueba Saber de la Fundación Cultural Ambiental y Deportiva Cartagena con Parques FUNDAPAR se consolida como un espacio de formación integral orientado al fortalecimiento de las competencias científicas, matemáticas y lectoras en los distintos niveles del sistema educativo colombiano. El instituto ofrece procesos de formación académica y entrenamiento especializado para la Prueba Saber 5°, Saber 9° y Saber 11°, preparando a los estudiantes para el desempeño exitoso en las evaluaciones externas y facilitando su ingreso a la universidad pública en Colombia.</p>
-<p>Asimismo, el campus desarrolla programas de preparación y actualización para las pruebas de docentes, dirigidos a aspirantes al ingreso al magisterio, con un enfoque en el desarrollo de competencias pedagógicas, didácticas y disciplinares, en coherencia con los lineamientos del Ministerio de Educación Nacional. Estas acciones formativas se fundamentan en una educación contextualizada, de calidad y con sentido social, orientada al mejoramiento continuo y a la promoción de oportunidades educativas y profesionales.</p>
+  <section id="instituto">
+    <h2>
+      <a href="https://campusfundapar.online/" target="_blank" style="color:#047857; text-decoration:none;">
+        Instituto de Formación y Ciencias
+      </a>
+    </h2>
   </section>
 
   <section id="proyectos">
     <h2>Proyectos</h2>
-    <p>Estamos ejecutando iniciativas de arborización, educación ambiental y participación ciudadana.</p>
   </section>
 
   <section id="servicios">
     <h2>Servicios</h2>
-    <p>Ofrecemos asesoría en diseño de espacios verdes, talleres ambientales y acompañamiento comunitario.</p>
   </section>
 
   <section id="agenda">
     <h2>Agenda de eventos</h2>
-    <p>Consulta nuestras próximas jornadas de siembra, talleres y actividades comunitarias.</p>
+  </section>
+
+  <!-- NUEVA SECCIÓN -->
+  <section id="noticias">
+    <h2>Noticias RADARIDHI</h2>
+    <p>
+      Consulta nuestro boletín oficial sobre inclusión, educación y desarrollo humano.
+    </p>
+
+    <a href="radaridihi.pdf" target="_blank" class="pdf-link">
+      📄 Informativo del Desarrollo Humano Inclusivo
+    </a>
   </section>
 
   <div class="video-container">
@@ -182,5 +206,6 @@
   <footer>
     © 2026 FUNDAPAR. Todos los derechos reservados.
   </footer>
+
 </body>
 </html>
