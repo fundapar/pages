@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FUNDAPAR - Cartagena con Parques</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -33,19 +33,7 @@
 
     header img {
       width: 80px;
-      height: auto;
       margin-bottom: 0.5rem;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    header p {
-      margin: 0.2rem 0;
-      font-size: 1rem;
-      color: #d1fae5;
     }
 
     nav {
@@ -60,7 +48,6 @@
       text-decoration: none;
       padding: 1rem;
       font-weight: 600;
-      transition: background-color 0.3s;
     }
 
     nav a:hover {
@@ -73,38 +60,14 @@
       background: white;
       padding: 2rem;
       border-radius: 1rem;
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 15px rgba(0,0,0,0.1);
     }
 
-    section h2 {
-      color: #047857;
-      margin-top: 0;
-    }
+    h2 { color: #047857; }
 
-    footer {
-      text-align: center;
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #6b7280;
-      padding-bottom: 2rem;
-    }
-
-    .video-container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    video {
-      width: 100%;
-      border-radius: 1rem;
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    .pdf-link {
+    .btn {
       display: inline-block;
-      margin-top: 1rem;
+      margin: 0.5rem 0.5rem 0 0;
       padding: 0.8rem 1.2rem;
       background-color: #047857;
       color: white;
@@ -113,20 +76,52 @@
       font-weight: 600;
     }
 
-    .pdf-link:hover {
+    .btn:hover { background-color: #065f46; }
+
+    #viewer {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .controls {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .controls button {
+      padding: 0.6rem 1rem;
+      margin: 0 5px;
+      border: none;
+      background-color: #047857;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .controls button:hover {
       background-color: #065f46;
     }
 
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #6b7280;
+      padding-bottom: 2rem;
+    }
   </style>
 </head>
+
 <body>
 
   <div class="top-image">
-    <img src="imagen-cartagena.jpg" alt="Cartagena desde las murallas">
+    <img src="imagen-cartagena.jpg">
   </div>
 
   <header>
-    <img src="logo.png" alt="Logo de FUNDAPAR" />
+    <img src="logo.png">
     <h1>FUNDAPAR</h1>
     <p>Cartagena con parques</p>
   </header>
@@ -136,39 +131,31 @@
     <a href="#quienes">Quiénes somos</a>
     <a href="#mision">Misión</a>
     <a href="#vision">Visión</a>
-    <a href="#instituto">Instituto de Formación y Ciencias</a>
     <a href="#proyectos">Proyectos</a>
     <a href="#servicios">Servicios</a>
-    <a href="#agenda">Agenda de eventos</a>
-    <a href="#noticias">Noticias RADARIDHI</a> <!-- NUEVO -->
+    <a href="#agenda">Agenda</a>
+    <a href="#noticias">Noticias RADARIDHI</a>
+    <a href="#lector">Lectura Online</a>
   </nav>
 
   <section id="inicio">
     <h2>Inicio</h2>
-    <p>Bienvenido a FUNDAPAR. Conoce nuestros esfuerzos por una Cartagena más verde.</p>
+    <p>Bienvenido a FUNDAPAR.</p>
   </section>
 
   <section id="quienes">
     <h2>¿Quiénes somos?</h2>
-    <p>Somos una fundación comprometida con la restauración y conservación de espacios públicos y parques urbanos; asimismo, prestamos servicios educativos, acompañamiento psicopedagógico y asesorías especializadas en todos los niveles de escolaridad.</p>
+    <p>Fundación comprometida con educación, inclusión y desarrollo humano.</p>
   </section>
 
   <section id="mision">
     <h2>Misión</h2>
-    <p>Promover el desarrollo sostenible y la participación ciudadana a través de la conservación de parques en Cartagena.</p>
+    <p>Promover el desarrollo sostenible.</p>
   </section>
 
   <section id="vision">
     <h2>Visión</h2>
-    <p>Ser referentes nacionales en el diseño, gestión y preservación de espacios verdes comunitarios.</p>
-  </section>
-
-  <section id="instituto">
-    <h2>
-      <a href="https://campusfundapar.online/" target="_blank" style="color:#047857; text-decoration:none;">
-        Instituto de Formación y Ciencias
-      </a>
-    </h2>
+    <p>Ser referentes nacionales.</p>
   </section>
 
   <section id="proyectos">
@@ -180,32 +167,59 @@
   </section>
 
   <section id="agenda">
-    <h2>Agenda de eventos</h2>
+    <h2>Agenda</h2>
   </section>
 
-  <!-- NUEVA SECCIÓN -->
+  <!-- NOTICIAS -->
   <section id="noticias">
     <h2>Noticias RADARIDHI</h2>
-    <p>
-      Consulta nuestro boletín oficial sobre inclusión, educación y desarrollo humano.
-    </p>
 
-    <a href="radaridihi.pdf" target="_blank" class="pdf-link">
+    <a href="radaridihi.pdf" target="_blank" class="btn">
       📄 Informativo del Desarrollo Humano Inclusivo
+    </a>
+
+    <a href="#lector" class="btn">
+      📖 Lectura Online
     </a>
   </section>
 
-  <div class="video-container">
-    <h2>Conoce más sobre nosotros</h2>
-    <video controls>
-      <source src="video-fundapar.mp4" type="video/mp4">
-      Tu navegador no soporta la reproducción de video.
-    </video>
-  </div>
+  <!-- VISOR EPUB -->
+  <section id="lector">
+    <h2>Lectura Online Interactiva</h2>
+    <div id="viewer"></div>
+
+    <div class="controls">
+      <button onclick="prevPage()">⬅ Anterior</button>
+      <button onclick="nextPage()">Siguiente ➡</button>
+    </div>
+  </section>
 
   <footer>
-    © 2026 FUNDAPAR. Todos los derechos reservados.
+    © 2026 FUNDAPAR
   </footer>
+
+  <!-- EPUB.js -->
+  <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
+  <script>
+    var book = ePub("radaridihi.epub");
+
+    var rendition = book.renderTo("viewer", {
+      width: "100%",
+      height: 600,
+      spread: "auto"
+    });
+
+    rendition.display();
+
+    function nextPage() {
+      rendition.next();
+    }
+
+    function prevPage() {
+      rendition.prev();
+    }
+  </script>
 
 </body>
 </html>
